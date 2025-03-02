@@ -16,7 +16,6 @@ body {
 }
 
 /* ========================= Common ======================== */
-
 a {
     text-decoration: none;
 }
@@ -171,6 +170,7 @@ a {
     margin-top: 40px;
     padding: 89px 0 79px;
 }
+
 .guides .sub-title {
     position: relative;
     margin-bottom: 20px;
@@ -338,7 +338,7 @@ a {
     letter-spacing: 0.014rem;
 }
 
-/* ========================= Header ======================== */
+/* ========================= Stats ======================== */
 .stats {
     margin-top: 75px;
     padding: 50px 0;
@@ -497,7 +497,7 @@ a {
     line-height: normal;
 }
 
-/* ========================= Common ======================== */
+/* ========================= Subscription ======================== */
 .subscription {
     margin-top: 90px;
 }

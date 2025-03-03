@@ -497,7 +497,6 @@ a {
 .stats .info .desc {
     width: 309px;
     color: #5a6473;
-    font-size: 1.6rem;
     font-weight: 400;
     line-height: 3rem;
 }
@@ -551,7 +550,6 @@ a {
 .subscription .desc {
     margin: 15px 0 20px 0;
     color: #fff;
-    font-size: 1.6rem;
     font-weight: 400;
     line-height: 3rem;
 }
@@ -596,7 +594,6 @@ a {
     display: block;
     margin-bottom: 18px;
     color: #7a7a7e;
-    font-size: 1.6rem;
     font-weight: 400;
 }
 

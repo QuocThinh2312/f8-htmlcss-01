@@ -60,7 +60,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background: #e6f0ff;
 }
 
@@ -145,8 +145,9 @@ a {
 
 .hero img {
     position: absolute;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: calc((100vw - 1110px) / 2 - 38px);
     bottom: 0;
+    height: calc(100vh - 90px);
 }
 
 /* ========================= Clients ======================== */

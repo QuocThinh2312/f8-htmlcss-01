@@ -477,7 +477,7 @@ a {
     line-height: 3rem;
 }
 
-.stats .row:nth-child(2) {
+.stats .row-qty {
     justify-content: space-between;
     padding: 0 32px;
     margin-top: 110px;
@@ -535,6 +535,10 @@ a {
     min-width: 151px;
     background: #fff;
     color: #002366;
+}
+
+.subscription .btn:hover {
+    background: #e8e8e8;
 }
 
 .subscription .image {

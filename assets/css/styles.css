@@ -55,9 +55,9 @@ a {
 /* ========================= Header ======================== */
 .fixed-header {
     position: sticky;
-    top: -26px;
+    top: -30px;
     z-index: 1;
-    padding-top: 26px;
+    padding-top: 30px;
     background: #e6f0ff;
 }
 
@@ -73,7 +73,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 8px 0;
 }
 
 .navbar ul {
@@ -149,7 +149,7 @@ a {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 38px);
     bottom: 0;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 86px);
 }
 
 /* ========================= Clients ======================== */

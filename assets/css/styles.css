@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
 }
 
@@ -206,7 +206,7 @@ a {
 }
 
 .guides .sub-title::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -10px;
     left: 50%;
@@ -308,7 +308,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -490,7 +491,7 @@ a {
 }
 
 .stats .info .sub-title::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -10px;
     left: 0;
@@ -525,6 +526,7 @@ a {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: normal;
+    text-align: center;
 }
 
 /* ========================= Subscription ======================== */
@@ -610,6 +612,10 @@ a {
 
 .footer .column:last-child {
     width: 257px;
+}
+
+.footer .column:last-child .desc {
+    line-height: 2.5rem;
 }
 
 .footer .social {

@@ -362,12 +362,15 @@ a {
     margin-right: 8px;
 }
 
-.featured .item .body .label:not(:nth-of-type(3)) {
-    margin-right: 22px;
+.featured .item .body .label {
     color: #4d4d52;
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 0.014rem;
+}
+
+.featured .item .body .label:not(:last-child) {
+    margin-right: 22px;
 }
 
 /* ========================= Stats ======================== */
